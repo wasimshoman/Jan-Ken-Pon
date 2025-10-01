@@ -30,10 +30,6 @@ The `tkinter` library usually comes pre-installed with Python. You only need to 
 
 pip install Pillow
 
-
-### 2. File Structure
-
-The script is configured to look for the image assets in a specific subdirectory. Ensure your project directory is structured as follows:
 ## 2. File Structure
 
 The script is configured to look for the image assets in a specific subdirectory.  
