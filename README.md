@@ -34,22 +34,22 @@ pip install Pillow
 ### 2. File Structure
 
 The script is configured to look for the image assets in a specific subdirectory. Ensure your project directory is structured as follows:
+## 2. File Structure
 
+The script is configured to look for the image assets in a specific subdirectory.  
+Ensure your project directory is structured as follows:
+
+```bash
 rock-paper-scissors-game/
 ├── app.py              # The main game script (where your code is saved)
 ├── face.ico            # Custom window icon file
 └── Proj_images/
-├── Rock.png        # Image for Rock button
-├── Paper.png       # Image for Paper button
-└── Scissors.png    # Image for Scissors button
-
+    ├── Rock.png        # Image for Rock button
+    ├── Paper.png       # Image for Paper button
+    └── Scissors.png    # Image for Scissors button
+```
 
 **Note:** If you don't have the image files or the `face.ico` file, you must either create them and place them in the correct paths or modify the image loading lines in `app.py`:
-
-Original lines requiring files:
-photo_rock = ImageTk.PhotoImage(Image.open("Proj_images/Rock.png").resize((50, 50)))
-root.iconbitmap('face.ico')
-
 
 ## ▶️ How to Run the Game
 
