@@ -1,0 +1,2 @@
+To play the gamne:
+Clone the repo to your IDE and run it. 
