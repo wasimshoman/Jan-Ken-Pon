@@ -10,7 +10,7 @@ A simple, graphical implementation of the classic game "Rock, Paper, Scissors" b
 
 * **Real-time Scoring:** Tracks and displays the scores for the Player and the Computer.
 
-* **Instant Feedback:** Uses popup message boxes to show the result of each round (Win, Loss, or Tie).
+* **Instant Feedback:** Uses pop-up message boxes to show the result of each round (Win, Loss, or Tie).
 
 ## 🛠️ Prerequisites
 
@@ -36,8 +36,8 @@ The script is configured to look for the image assets in a specific subdirectory
 Ensure your project directory is structured as follows:
 
 ```bash
-rock-paper-scissors-game/
-├── app.py              # The main game script (where your code is saved)
+Jan-Ken-Pon/
+├── Project.py              # The main game script (where your code is saved)
 ├── face.ico            # Custom window icon file
 └── Proj_images/
     ├── Rock.png        # Image for Rock button
@@ -45,18 +45,16 @@ rock-paper-scissors-game/
     └── Scissors.png    # Image for Scissors button
 ```
 
-**Note:** If you don't have the image files or the `face.ico` file, you must either create them and place them in the correct paths or modify the image loading lines in `app.py`:
-
 ## ▶️ How to Run the Game
 
 1. Navigate to the root directory of the project in your terminal:
 
-cd rock-paper-scissors-game/
+cd Jan-Ken-Pon/
 
 
 2. Run the Python script:
 
-python app.py
+python Project.py
 
 
 The game window will open, and you can start playing!
