@@ -27,8 +27,9 @@ To run this game, you need:
 ### 1. Install Dependencies
 
 The `tkinter` library usually comes pre-installed with Python. You only need to install `Pillow`:
-
+```bash
 pip install Pillow
+```
 
 ## 2. File Structure
 
@@ -37,7 +38,7 @@ Ensure your project directory is structured as follows:
 
 ```bash
 Jan-Ken-Pon/
-├── Project.py              # The main game script (where your code is saved)
+├── Project.py              # The main game script 
 ├── face.ico            # Custom window icon file
 └── Proj_images/
     ├── Rock.png        # Image for Rock button
@@ -49,13 +50,15 @@ Jan-Ken-Pon/
 
 1. Navigate to the root directory of the project in your terminal:
 
+```bash
 cd Jan-Ken-Pon/
-
+```
 
 2. Run the Python script:
 
+```bash
 python Project.py
-
+```
 
 The game window will open, and you can start playing!
 
